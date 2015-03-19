@@ -1,0 +1,177 @@
+0 info it worked if it ends with ok
+1 verbose cli [ 'node', '/usr/local/bin/npm', 'install', 'android', 'sdk' ]
+2 info using npm@1.4.28
+3 info using node@v0.10.33
+4 warn package.json todo@1.0.0 No repository field.
+5 warn package.json todo@1.0.0 No README data
+6 verbose readDependencies using package.json deps
+7 verbose cache add [ 'android', null ]
+8 verbose cache add name=undefined spec="android" args=["android",null]
+9 verbose parsed url { protocol: null,
+9 verbose parsed url   slashes: null,
+9 verbose parsed url   auth: null,
+9 verbose parsed url   host: null,
+9 verbose parsed url   port: null,
+9 verbose parsed url   hostname: null,
+9 verbose parsed url   hash: null,
+9 verbose parsed url   search: null,
+9 verbose parsed url   query: null,
+9 verbose parsed url   pathname: 'android',
+9 verbose parsed url   path: 'android',
+9 verbose parsed url   href: 'android' }
+10 verbose cache add [ 'sdk', null ]
+11 verbose cache add name=undefined spec="sdk" args=["sdk",null]
+12 verbose parsed url { protocol: null,
+12 verbose parsed url   slashes: null,
+12 verbose parsed url   auth: null,
+12 verbose parsed url   host: null,
+12 verbose parsed url   port: null,
+12 verbose parsed url   hostname: null,
+12 verbose parsed url   hash: null,
+12 verbose parsed url   search: null,
+12 verbose parsed url   query: null,
+12 verbose parsed url   pathname: 'sdk',
+12 verbose parsed url   path: 'sdk',
+12 verbose parsed url   href: 'sdk' }
+13 silly lockFile e4bbe5b7-android android
+14 verbose lock android /Users/eamongwalsh/.npm/e4bbe5b7-android.lock
+15 silly lockFile 5a374dcd-sdk sdk
+16 verbose lock sdk /Users/eamongwalsh/.npm/5a374dcd-sdk.lock
+17 silly lockFile 5a374dcd-sdk sdk
+18 silly lockFile 5a374dcd-sdk sdk
+19 silly lockFile e4bbe5b7-android android
+20 silly lockFile e4bbe5b7-android android
+21 verbose addNamed [ 'sdk', '' ]
+22 verbose addNamed [ null, '*' ]
+23 silly lockFile 60c9cc6c-sdk sdk@
+24 verbose lock sdk@ /Users/eamongwalsh/.npm/60c9cc6c-sdk.lock
+25 verbose addNamed [ 'android', '' ]
+26 verbose addNamed [ null, '*' ]
+27 silly lockFile 0c7aa45d-android android@
+28 verbose lock android@ /Users/eamongwalsh/.npm/0c7aa45d-android.lock
+29 silly addNameRange { name: 'sdk', range: '*', hasData: false }
+30 silly addNameRange { name: 'android', range: '*', hasData: false }
+31 verbose request where is /sdk
+32 verbose request registry https://registry.npmjs.org/
+33 verbose request id e314a9149f92838c
+34 verbose url raw /sdk
+35 verbose url resolving [ 'https://registry.npmjs.org/', './sdk' ]
+36 verbose url resolved https://registry.npmjs.org/sdk
+37 verbose request where is https://registry.npmjs.org/sdk
+38 info trying registry request attempt 1 at 21:30:39
+39 http GET https://registry.npmjs.org/sdk
+40 verbose request where is /android
+41 verbose request registry https://registry.npmjs.org/
+42 verbose url raw /android
+43 verbose url resolving [ 'https://registry.npmjs.org/', './android' ]
+44 verbose url resolved https://registry.npmjs.org/android
+45 verbose request where is https://registry.npmjs.org/android
+46 info trying registry request attempt 1 at 21:30:39
+47 http GET https://registry.npmjs.org/android
+48 http 200 https://registry.npmjs.org/android
+49 silly registry.get cb [ 200,
+49 silly registry.get   { date: 'Fri, 23 Jan 2015 21:29:01 GMT',
+49 silly registry.get     server: 'CouchDB/1.5.0 (Erlang OTP/R16B03)',
+49 silly registry.get     etag: '"EKJZ88PJ3MY2ST8BB10A8K6LR"',
+49 silly registry.get     'content-type': 'application/json',
+49 silly registry.get     'cache-control': 'max-age=60',
+49 silly registry.get     'content-length': '5614',
+49 silly registry.get     'accept-ranges': 'bytes',
+49 silly registry.get     via: '1.1 varnish',
+49 silly registry.get     age: '0',
+49 silly registry.get     'x-served-by': 'cache-lhr6334-LHR',
+49 silly registry.get     'x-cache': 'MISS',
+49 silly registry.get     'x-cache-hits': '0',
+49 silly registry.get     'x-timer': 'S1422048540.915980,VS0,VE366',
+49 silly registry.get     vary: 'Accept',
+49 silly registry.get     'keep-alive': 'timeout=10, max=50',
+49 silly registry.get     connection: 'Keep-Alive' } ]
+50 silly addNameRange number 2 { name: 'android', range: '*', hasData: true }
+51 silly addNameRange versions [ 'android',
+51 silly addNameRange   [ '0.0.0', '0.0.1', '0.0.6', '0.0.7', '0.0.5-cd' ] ]
+52 verbose addNamed [ 'android', '0.0.7' ]
+53 verbose addNamed [ '0.0.7', '0.0.7' ]
+54 silly lockFile a58b0c1b-android-0-0-7 android@0.0.7
+55 verbose lock android@0.0.7 /Users/eamongwalsh/.npm/a58b0c1b-android-0-0-7.lock
+56 silly lockFile 27db3861-js-org-android-android-0-0-7-tgz https://registry.npmjs.org/android/-/android-0.0.7.tgz
+57 verbose lock https://registry.npmjs.org/android/-/android-0.0.7.tgz /Users/eamongwalsh/.npm/27db3861-js-org-android-android-0-0-7-tgz.lock
+58 verbose addRemoteTarball [ 'https://registry.npmjs.org/android/-/android-0.0.7.tgz',
+58 verbose addRemoteTarball   'c7be841df0340e6bc718fc42a935b14f30c42348' ]
+59 info retry fetch attempt 1 at 21:30:40
+60 verbose fetch to= /var/folders/yr/8wc1q4pj51g2bhvqf3mf84v80000gn/T/npm-12382-9CerCl6c/registry.npmjs.org/android/-/android-0.0.7.tgz
+61 http GET https://registry.npmjs.org/android/-/android-0.0.7.tgz
+62 http 200 https://registry.npmjs.org/sdk
+63 silly registry.get cb [ 200,
+63 silly registry.get   { date: 'Fri, 23 Jan 2015 21:29:01 GMT',
+63 silly registry.get     server: 'CouchDB/1.5.0 (Erlang OTP/R16B03)',
+63 silly registry.get     etag: '"4NJGE1VE9JF8FNBBD9HRAQVC2"',
+63 silly registry.get     'content-type': 'application/json',
+63 silly registry.get     'cache-control': 'max-age=60',
+63 silly registry.get     'content-length': '18235',
+63 silly registry.get     'accept-ranges': 'bytes',
+63 silly registry.get     via: '1.1 varnish',
+63 silly registry.get     age: '0',
+63 silly registry.get     'x-served-by': 'cache-lhr6328-LHR',
+63 silly registry.get     'x-cache': 'MISS',
+63 silly registry.get     'x-cache-hits': '0',
+63 silly registry.get     'x-timer': 'S1422048540.922151,VS0,VE447',
+63 silly registry.get     vary: 'Accept',
+63 silly registry.get     'keep-alive': 'timeout=10, max=50',
+63 silly registry.get     connection: 'Keep-Alive' } ]
+64 silly addNameRange number 2 { name: 'sdk', range: '*', hasData: true }
+65 silly addNameRange versions [ 'sdk',
+65 silly addNameRange   [ '0.0.0',
+65 silly addNameRange     '0.0.1',
+65 silly addNameRange     '0.0.2',
+65 silly addNameRange     '0.0.3',
+65 silly addNameRange     '0.0.5',
+65 silly addNameRange     '0.0.6',
+65 silly addNameRange     '0.0.7',
+65 silly addNameRange     '0.0.8',
+65 silly addNameRange     '0.0.9',
+65 silly addNameRange     '0.1.0',
+65 silly addNameRange     '0.1.1',
+65 silly addNameRange     '0.2.0',
+65 silly addNameRange     '0.2.1',
+65 silly addNameRange     '0.2.2' ] ]
+66 verbose addNamed [ 'sdk', '0.2.2' ]
+67 verbose addNamed [ '0.2.2', '0.2.2' ]
+68 silly lockFile 1550235b-sdk-0-2-2 sdk@0.2.2
+69 verbose lock sdk@0.2.2 /Users/eamongwalsh/.npm/1550235b-sdk-0-2-2.lock
+70 silly lockFile 2cd2ce8f-stry-npmjs-org-sdk-sdk-0-2-2-tgz https://registry.npmjs.org/sdk/-/sdk-0.2.2.tgz
+71 verbose lock https://registry.npmjs.org/sdk/-/sdk-0.2.2.tgz /Users/eamongwalsh/.npm/2cd2ce8f-stry-npmjs-org-sdk-sdk-0-2-2-tgz.lock
+72 verbose addRemoteTarball [ 'https://registry.npmjs.org/sdk/-/sdk-0.2.2.tgz',
+72 verbose addRemoteTarball   '27e716dc5bc8c82a0ffe97f03d3b743bbdd200c3' ]
+73 info retry fetch attempt 1 at 21:30:40
+74 verbose fetch to= /var/folders/yr/8wc1q4pj51g2bhvqf3mf84v80000gn/T/npm-12382-9CerCl6c/registry.npmjs.org/sdk/-/sdk-0.2.2.tgz
+75 http GET https://registry.npmjs.org/sdk/-/sdk-0.2.2.tgz
+76 http 200 https://registry.npmjs.org/sdk/-/sdk-0.2.2.tgz
+77 silly lockFile 2cd2ce8f-stry-npmjs-org-sdk-sdk-0-2-2-tgz https://registry.npmjs.org/sdk/-/sdk-0.2.2.tgz
+78 silly lockFile 2cd2ce8f-stry-npmjs-org-sdk-sdk-0-2-2-tgz https://registry.npmjs.org/sdk/-/sdk-0.2.2.tgz
+79 silly lockFile 1550235b-sdk-0-2-2 sdk@0.2.2
+80 silly lockFile 1550235b-sdk-0-2-2 sdk@0.2.2
+81 silly lockFile 60c9cc6c-sdk sdk@
+82 silly lockFile 60c9cc6c-sdk sdk@
+83 http 404 https://registry.npmjs.org/android/-/android-0.0.7.tgz
+84 error fetch failed https://registry.npmjs.org/android/-/android-0.0.7.tgz
+85 silly lockFile 27db3861-js-org-android-android-0-0-7-tgz https://registry.npmjs.org/android/-/android-0.0.7.tgz
+86 silly lockFile 27db3861-js-org-android-android-0-0-7-tgz https://registry.npmjs.org/android/-/android-0.0.7.tgz
+87 silly lockFile a58b0c1b-android-0-0-7 android@0.0.7
+88 silly lockFile a58b0c1b-android-0-0-7 android@0.0.7
+89 silly lockFile 0c7aa45d-android android@
+90 silly lockFile 0c7aa45d-android android@
+91 error Error: 404 Not Found
+91 error     at WriteStream.<anonymous> (/usr/local/lib/node_modules/npm/lib/utils/fetch.js:58:12)
+91 error     at WriteStream.emit (events.js:117:20)
+91 error     at evalmachine.<anonymous>:1609:14
+91 error     at /usr/local/lib/node_modules/npm/node_modules/graceful-fs/graceful-fs.js:102:5
+91 error     at Object.oncomplete (evalmachine.<anonymous>:107:15)
+92 error If you need help, you may report this *entire* log,
+92 error including the npm and node versions, at:
+92 error     <http://github.com/npm/npm/issues>
+93 error System Darwin 14.0.0
+94 error command "node" "/usr/local/bin/npm" "install" "android" "sdk"
+95 error cwd /Users/eamongwalsh/ionicprojects/todo
+96 error node -v v0.10.33
+97 error npm -v 1.4.28
+98 verbose exit [ 1, true ]
